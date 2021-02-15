@@ -1,0 +1,16 @@
+插入数据
+insert into 表名（一栏,二栏,......）
+values(date,date,date，....);
+
+修改数据
+update 表名
+set 一栏=date1，二栏=date2;
+
+删除数据
+delete from 表名
+//(不用where会失去整张表)
+where 条件 //（例如where id=1，即删除id为1的那条数据）
+
+查询数据
+select 一栏,二栏,... from 表名
+select *from 表名//查询全体
